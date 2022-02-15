@@ -12,7 +12,7 @@ namespace EFEasyExample.DaraModels
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
-			optionsBuilder.UseSqlServer(@"Data Source = 192.168.15.101; Initial Catalog = EFEasyExample; User ID = khatia; Password = Arjevanidze97");
+			optionsBuilder.UseSqlServer(@"Data Source = ****; Initial Catalog = EFEasyExample; User ID = khatia; Password = *********");
 		}
 	}
 }
